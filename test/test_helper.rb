@@ -1,6 +1,7 @@
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
 require 'rails/test_help'
+# クラウドIDEを含む多くのシステムで red や green の表示が見やすくなります
 require 'minitest/reporters'
 Minitest::Reporters.use!
 

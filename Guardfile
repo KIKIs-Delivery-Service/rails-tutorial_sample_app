@@ -1,3 +1,7 @@
+# エラー: invalid byte sequence in US-ASCII (ArgumentError)
+# が発生する場合は事前に以下のコマンドを実行する
+# export LANG=C.UTF-8
+
 # A sample Guardfile
 # More info at https://github.com/guard/guard#readme
 
